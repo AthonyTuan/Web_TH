@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="w3-bar w3-card-2 nav-bar">
+    <a href="./" class="w3-bar-item w3-button w3-hover-none w3-left w3-padding-16" title="HOme" id="pageIcon"
+      style="width: 77px">
+      <i class="fa fa-home" style="
+            position: relative;
+            z-index: 1;
+            color: #04aa6d;
+            font-size: 42px !important;
+          ">
+      </i>
+    </a>
+    <a class="w3-bar-item w3-button w3-hide-small barex bar-item-hover w3-padding-24 nav-button" href="./"
+      title="Turtorials" style="width: 116px">
+      Tutorials
+      <i class="fa fa-caret-down"></i>
+    </a>
+    <a class="w3-bar-item w3-button w3-hide-small barex bar-item-hover w3-padding-24 nav-button" href="./"
+      title="Turtorials" style="width: 140px">
+      References
+      <i class="fa fa-caret-down"></i>
+    </a>
+    <a class="w3-bar-item w3-button w3-hide-small barex bar-item-hover w3-padding-24 nav-button" href="./"
+      title="Turtorials" style="width: 116px">
+      Exercies
+      <i class="fa fa-caret-down"></i>
+    </a>
+    <a class="w3-bar-item w3-button w3-hide-small barex bar-item-hover w3-padding-24" href="./" title="Turtorials"
+      style="width: 116px">
+      Sign Up
+    </a>
+    <a id="spacesbtn_topnav" style="display: none" class="w3-bar-item w3-button bar-item-hover w3-padding-24 barex"
+      title="Go to Your Space">Spaces</a>
+    <div class="w3-right w3-padding-16">
+      <a id="w3loginbtn" class="w3-bar-item w3-btn w3-right"
+        href="https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fmy-learning.w3schools.com" target="_self"
+        style="display: inline">Log in</a>
+    </div>
+    <div class="w3-right w3-padding-16 icon-container">
+      <a class="w3-bar-item w3-button bar-icon-hover w3-right w3searchbtntopnav nav-icon" href="javascript:void(0)"
+        style="
+            padding-top: 24px;
+            padding-bottom: 24px;
+            padding-left: 12px;
+            padding-right: 12px;
+            margin-right: 8px;
+          " title="Search W3Schools" id="nav_search_btn"><i class="fa fa-search"></i></a>
+      <a class="w3-bar-item w3-button bar-icon-hover w3-right w3searchbtntopnav nav-icon" href="javascript:void(0)"
+        style="
+            padding-top: 24px;
+            padding-bottom: 24px;
+            padding-left: 12px;
+            padding-right: 12px;
+            margin-right: 8px;
+          " title="Search W3Schools" id="nav_search_btn"><i class="fa fa-globe"></i></a>
+      <a class="w3-bar-item w3-button bar-icon-hover w3-right w3searchbtntopnav nav-icon" href="javascript:void(0)"
+        style="
+            padding-top: 24px;
+            padding-bottom: 24px;
+            padding-left: 12px;
+            padding-right: 12px;
+            margin-right: 8px;
+          " title="Search W3Schools" id="nav_search_btn"><i class="fa fa-star-half-o"></i></a>
+    </div>
+  </div>
+
+  <div class="w3-main">
+    <div class="ws-black w3-center" style="padding-top: 90px; padding-bottom: 90px">
+      <div class="w3 learntocodecontent" style="max-width: 1400px">
+        <h1 class="learntocodeh1">Learn to Code</h1>
+        <h3 class="learntocodeh3">
+          With the world's largest web developer site.
+        </h3>
+        <br />
+        <form class="example" style="margin: auto; max-width: 500px">
+          <input type="text" placeholder="Search our tutorials, e.g. HTML" id="search2" autocomplete="off" />
+          <button type="button">
+            <i class="fa fa-search"></i>
+          </button>
+        </form>
+        <h4 class="not-sure-text"></h4>
+      </div>
+    </div>
+  </div>
+  <svg style="background-color: #d9eee1" width="100%" height="70" viewBox="0 0 100 100" preserveAspectRatio="none">
+    <path id="wavepath" d="M0,0  L110,0C35,150 35,0 0,100z" fill="#282A35"></path>
+  </svg>
+  <div class="w3-row ws-light-green" style="margin-top: -10px; padding-top: 32px;">
+    <div class="w3-content" style="max-width: 1400px;">
+      <div class="w3-col 16 w3-center" style="padding:3%">
+        <h1 id="titleHTML">HTML</h1>
+        <p style="font-size:19px;">The language for building web pages</p>
+        <a href="./" class="w3-button tut-button">Learn HTML</a>
+        <a href="./" class="w3-button ws-yellow tut-button video-tutorial-btn ms-yellow-hover"
+          title="HTML Video Turtorial">Video Turtorial</a>
+        <a href="./" class="w3-button ws-black tut-button video-tutorial-btn" title="HTML References">HTML
+          References</a>
+        <a href="./" class="w3-button ws-pink tut-button video-tutorial-btn" title="Get Certified">Get Certified</a>
+      </div>
+      <div class="w3-col 16" style="padding: 3%">
+        <div class="w3-hide-small grey-color w3-card-2 w3-round" style="padding: 16px">
+          <h3>HTML Example</h3>
+          <div class="w3-code htmlHigh notranslate green-border" style="height:300px">
+            <span class="tagnamecolor" style="color:brown"><span class="tagcolor"
+                style="color:mediumblue">&lt;</span>!DOCTYPE<span class="attributecolor" style="color:red">
+                html</span><span class="tagcolor" style="color:mediumblue">&gt;</span></span><br>
+            <span class="tagnamecolor" style="color:brown"><span class="tagcolor"
+                style="color:mediumblue">&lt;</span>html<span class="tagcolor"
+                style="color:mediumblue">&gt;</span></span><br>
+            <span class="tagnamecolor" style="color:brown"><span class="tagcolor"
+                style="color:mediumblue">&lt;</span>title<span class="tagcolor"
+                style="color:mediumblue">&gt;</span></span>HTML Tutorial<span class="tagnamecolor"
+              style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/title<span
+                class="tagcolor" style="color:mediumblue">&gt;</span></span><br>
+            <span class="tagnamecolor" style="color:brown"><span class="tagcolor"
+                style="color:mediumblue">&lt;</span>body<span class="tagcolor"
+                style="color:mediumblue">&gt;</span></span><br><br>
+            <span class="tagnamecolor" style="color:brown"><span class="tagcolor"
+                style="color:mediumblue">&lt;</span>h1<span class="tagcolor"
+                style="color:mediumblue">&gt;</span></span>This is a heading<span class="tagnamecolor"
+              style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/h1<span class="tagcolor"
+                style="color:mediumblue">&gt;</span></span><br>
+            <span class="tagnamecolor" style="color:brown"><span class="tagcolor"
+                style="color:mediumblue">&lt;</span>p<span class="tagcolor"
+                style="color:mediumblue">&gt;</span></span>This is a paragraph.<span class="tagnamecolor"
+              style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/p<span class="tagcolor"
+                style="color:mediumblue">&gt;</span></span><br><br>
+            <span class="tagnamecolor" style="color:brown"><span class="tagcolor"
+                style="color:mediumblue">&lt;</span>/body<span class="tagcolor"
+                style="color:mediumblue">&gt;</span></span><br>
+            <span class="tagnamecolor" style="color:brown"><span class="tagcolor"
+                style="color:mediumblue">&lt;</span>/html<span class="tagcolor"
+                style="color:mediumblue">&gt;</span></span>
+          </div>
+          <a href="/css/tryit.asp?filename=trycss_default" target="_blank" class="w3-button tryit-button">Try it
+            Yourself</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-row w3-padding-32 ws-yellow" style="margin-top: -10px">
+      <div class="w3-content" style="max-width: 1400px;">
+        <div class="w3-col 16 w3-center" style="padding:3%">
+          <h1 id="titleHTML">CSS</h1>
+          <p style="font-size:19px;">The language for styling web pages</p>
+          <a href="./" class="w3-button tut-button">Learn CSS</a>
+          <a href="./" class="w3-button ws-black tut-button video-tutorial-btn" title="HTML References">CSS
+            References</a>
+          <a href="./" class="w3-button ws-pink tut-button video-tutorial-btn" title="Get Certified">Get Certified</a>
+        </div>
+        <div class="w3-col 16" style="padding: 3%">
+          <div class="w3-hide-small grey-color w3-card-2 w3-round" style="padding: 16px">
+            <h3>CSS Example</h3>
+            <div class="w3-code cssHigh notranslate green-border"><span class="cssselectorcolor" style="color:brown">
+                body <span class="cssdelimitercolor" style="color:black">{</span><span class="csspropertycolor"
+                  style="color:red"><br>
+                  &nbsp; background-color<span class="csspropertyvaluecolor" style="color:mediumblue"><span
+                      class="cssdelimitercolor" style="color:black">:</span> lightblue<span class="cssdelimitercolor"
+                      style="color:black">;</span></span><br></span><span class="cssdelimitercolor"
+                  style="color:black">}</span><br><br>
+                h1 <span class="cssdelimitercolor" style="color:black">{</span><span class="csspropertycolor"
+                  style="color:red"><br>
+                  &nbsp; color<span class="csspropertyvaluecolor" style="color:mediumblue"><span
+                      class="cssdelimitercolor" style="color:black">:</span> white<span class="cssdelimitercolor"
+                      style="color:black">;</span></span><br>
+                  &nbsp; text-align<span class="csspropertyvaluecolor" style="color:mediumblue"><span
+                      class="cssdelimitercolor" style="color:black">:</span> center<span class="cssdelimitercolor"
+                      style="color:black">;</span></span><br></span><span class="cssdelimitercolor"
+                  style="color:black">}</span><br><br>p <span class="cssdelimitercolor"
+                  style="color:black">{</span><span class="csspropertycolor" style="color:red"><br>&nbsp;
+                  font-family<span class="csspropertyvaluecolor" style="color:mediumblue"><span
+                      class="cssdelimitercolor" style="color:black">:</span> verdana<span class="cssdelimitercolor"
+                      style="color:black">;</span></span><br></span><span class="cssdelimitercolor"
+                  style="color:black">}</span></span></div>
+            <a href="/css/tryit.asp?filename=trycss_default" target="_blank" class="w3-button tryit-button">Try it
+              Yourself</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="w3-row w3-padding-32 ws-turquoise" style="margin-top: -10px">
+      <div class="w3-content" style="max-width: 1400px;">
+        <div class="w3-col 16 w3-center" style="padding:3%">
+          <h1 id="titleHTML">Javascript</h1>
+          <p style="font-size:19px;">The language for programming web pages</p>
+          <a href="./" class="w3-button tut-button">Learn Javascript</a>
+          <a href="./" class="w3-button ws-white tut-button video-tutorial-btn" title="HTML References">Javascript
+            Reference</a>
+          <a href="./" class="w3-button ws-pink tut-button video-tutorial-btn" title="Get Certified">Get Certified</a>
+        </div>
+        <div class="w3-col 16" style="padding: 3%">
+          <div class="w3-hide-small grey-color w3-card-2 w3-round" style="padding: 16px">
+            <h3>Javascript Example</h3>
+            <div class="w3-code notranslate green-border">
+              <div class="htmlHigh">
+                <span class="tagnamecolor" style="color:brown"><span class="tagcolor"
+                    style="color:mediumblue">&lt;</span>button<span class="attributecolor" style="color:red">
+                    onclick<span class="attributevaluecolor" style="color:mediumblue">="myFunction()"</span></span><span
+                    class="tagcolor" style="color:mediumblue">&gt;</span></span>Click Me!<span class="tagnamecolor"
+                  style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/button<span
+                    class="tagcolor" style="color:mediumblue">&gt;</span></span><br><br>
+                <span class="tagnamecolor" style="color:brown"><span class="tagcolor"
+                    style="color:mediumblue">&lt;</span>script<span class="tagcolor"
+                    style="color:mediumblue">&gt;</span></span><span class="jscolor" style="color:black"><br>
+                  <span class="jskeywordcolor" style="color:mediumblue">function</span> myFunction() {<br><span
+                    class="jsnumbercolor" style="color:red">
+                  </span> &nbsp; <span class="jskeywordcolor" style="color:mediumblue">let</span> x = document.<span
+                    class="jspropertycolor" style="color:black">getElementById</span>(<span class="jsstringcolor"
+                    style="color:brown">"demo"</span>);<br><span class="jsnumbercolor" style="color:red">
+                  </span>&nbsp; x.<span class="jspropertycolor" style="color:black">style</span>.<span
+                    class="jspropertycolor" style="color:black">fontSize</span> = <span class="jsstringcolor"
+                    style="color:brown">"25px"</span>; <br><span class="jsnumbercolor" style="color:red">
+                  </span>&nbsp; x.<span class="jspropertycolor" style="color:black">style</span>.<span
+                    class="jspropertycolor" style="color:black">color</span> = <span class="jsstringcolor"
+                    style="color:brown">"red"</span>; <br>}<br>
+                </span><span class="tagnamecolor" style="color:brown"><span class="tagcolor"
+                    style="color:mediumblue">&lt;</span>/script<span class="tagcolor"
+                    style="color:mediumblue">&gt;</span></span>
+              </div>
+            </div>
+            <a href="/css/tryit.asp?filename=trycss_default" target="_blank" class="w3-button tryit-button">Try it
+              Yourself</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-row w3-padding-64 ws-black">
+      <div class="w3-content flex-container" style="max-width: 1400px; margin: auto;">
+        <div class="w3-col 16 w3-center" style="padding: 2% 3%">
+          <div class="w3-card-2 w3-round w3-card-pink">
+            <h2 style="font-size:45px;font-weight:700">PHP</h2>
+            <div style="height: 70px;">
+              <h5 class="w3-text-dark-gray">A web server programming language</h5>
+            </div>
+            <a href="/php/default.asp" class="w3-button tut-button w3-black w3-margin-bottom">Learn PHP</a>
+          </div>
+        </div>
+        <div class="w3-col 16 w3-center" style="padding: 2% 3%">
+          <div class="w3-card-2 w3-round w3-card-yellow">
+            <h2 style="font-size:45px;font-weight:700">JQuery</h2>
+            <div style="height: 70px;">
+              <h5 class="w3-text-dark-gray">A JS library for developing web pages</h5>
+            </div>
+            <a href="/php/default.asp" class="w3-button tut-button w3-black w3-margin-bottom">Learn JQuery</a>
+          </div>
+        </div>
+        <div class="w3-col 16 w3-center" style="padding: 2% 3%">
+          <div class="w3-card-2 w3-round w3-card-turquoise">
+            <h2 style="font-size:45px;font-weight:700">W3.CSS</h2>
+            <div style="height: 70px;">
+              <h5 class="w3-text-dark-gray">A CSS framework for faster and better responsive web pages</h5>
+            </div>
+            <a href="/php/default.asp" class="w3-button tut-button w3-black w3-margin-bottom">Learn W3.CSS</a>
+          </div>
+        </div>
+        <div class="w3-col 16 w3-center" style="padding: 2% 3%">
+          <div class="w3-card-2 w3-round w3-card-white">
+            <h2 style="font-size:45px;font-weight:700">Bootstrap</h2>
+            <div style="height: 70px;">
+              <h5 class="w3-text-dark-gray">A CSS framework for designing better web pages</h5>
+            </div>
+            <a href="/php/default.asp" class="w3-button tut-button w3-black w3-margin-bottom">Learn Bootstrap</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="w3-row ws-black" style="padding-bottom: 64px;">
+        <div class="w3-content flex-container" style="max-width: 1400px; margin: auto;">
+          <div class="w3-col 16 s12 w3-center" style="padding: 2% 3%;height: auto;">
+            <a href="./" style="text-decoration: none;">
+              <div class="w3-card-2 w3-round ws-pink" style="padding: 36px 24px">
+                <h2 style="font-size:30px;font-weight:500">C</h2>
+              </div>
+            </a>
+          </div>
+          <div class="w3-col 16 s12 w3-center" style="padding: 2% 3%;height: auto;">
+            <a href="./" style="text-decoration: none;">
+              <div class="w3-card-2 w3-round ws-yellow" style="padding: 36px 24px">
+                <h2 style="font-size:30px;font-weight:500">C#</h2>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="w3-conent flex-container-4">
+          <div class="w3-col 16 s12 w3-center" style="padding: 2% 3%;height: auto;">
+            <a href="./" style="text-decoration: none;">
+              <div class="w3-card-2 w3-round ws-white" style="padding: 36px 24px">
+                <h2 style="font-size:30px;font-weight:500">R</h2>
+              </div>
+            </a>
+          </div>
+          <div class="w3-col 16 s12 w3-center" style="padding: 2% 3%;height: auto;">
+            <a href="./" style="text-decoration: none;">
+              <div class="w3-card-2 w3-round ws-turquoise" style="padding: 36px 24px">
+                <h2 style="font-size:30px;font-weight:500">Koltin</h2>
+              </div>
+            </a>
+          </div>
+          <div class="w3-col 16 s12 w3-center" style="padding: 2% 3%;height: auto;">
+            <a href="./" style="text-decoration: none;">
+              <div class="w3-card-2 w3-round ws-pink" style="padding: 36px 24px">
+                <h2 style="font-size:30px;font-weight:500">Node.js</h2>
+              </div>
+            </a>
+          </div>
+          <div class="w3-col 16 s12 w3-center" style="padding: 2% 3%;height: auto;">
+            <a href="./" style="text-decoration: none;">
+              <div class="w3-card-2 w3-round ws-light-green" style="padding: 36px 24px">
+                <h2 style="font-size:30px;font-weight:500">React</h2>
+              </div>
+            </a>
+          </div>
+          <div class="w3-col 16 s12 w3-center" style="padding: 2% 3%;height: auto;">
+            <a href="./" style="text-decoration: none;">
+              <div class="w3-card-2 w3-round ws-yellow" style="padding: 36px 24px">
+                <h2 style="font-size:30px;font-weight:500">JSON</h2>
+              </div>
+            </a>
+          </div>
+          <div class="w3-col 16 s12 w3-center" style="padding: 2% 3%;height: auto;">
+            <a href="./" style="text-decoration: none;">
+              <div class="w3-card-2 w3-round ws-white" style="padding: 36px 24px">
+                <h2 style="font-size:30px;font-weight:500">Angular</h2>
+              </div>
+            </a>
+          </div>
+          <div class="w3-col 16 s12 w3-center" style="padding: 2% 3%;height: auto;">
+            <a href="./" style="text-decoration: none;">
+              <div class="w3-card-2 w3-round ws-turquoise" style="padding: 36px 24px">
+                <h2 style="font-size:30px;font-weight:500">MySQL</h2>
+              </div>
+            </a>
+          </div>
+          <div class="w3-col 16 s12 w3-center" style="padding: 2% 3%;height: auto;">
+            <a href="./" style="text-decoration: none;">
+              <div class="w3-card-2 w3-round ws-light-green" style="padding: 36px 24px">
+                <h2 style="font-size:30px;font-weight:500">XML</h2>
+              </div>
+            </a>
+          </div>
+          <div class="w3-col 16 s12 w3-center" style="padding: 2% 3%;height: auto;">
+            <a href="./" style="text-decoration: none;">
+              <div class="w3-card-2 w3-round ws-pink" style="padding: 36px 24px">
+                <h2 style="font-size:30px;font-weight:500">Sass</h2>
+              </div>
+            </a>
+          </div>
+          <div class="w3-col 16 s12 w3-center" style="padding: 2% 3%;height: auto;">
+            <a href="./" style="text-decoration: none;">
+              <div class="w3-card-2 w3-round ws-yellow" style="padding: 36px 24px">
+                <h2 style="font-size:30px;font-weight:500">Icons</h2>
+              </div>
+            </a>
+          </div>
+          <div class="w3-col 16 s12 w3-center" style="padding: 2% 3%;height: auto;">
+            <a href="./" style="text-decoration: none;">
+              <div class="w3-card-2 w3-round ws-white" style="padding: 36px 24px">
+                <h2 style="font-size:30px;font-weight:500">Git</h2>
+              </div>
+            </a>
+          </div>
+          <div class="w3-col 16 s12 w3-center" style="padding: 2% 3%;height: auto;">
+            <a href="./" style="text-decoration: none;">
+              <div class="w3-card-2 w3-round ws-turquoise" style="padding: 36px 24px">
+                <h2 style="font-size:30px;font-weight:500">TypeScript</h2>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="w3-content flex-container" style="max-width: 1400px; margin: auto;">
+          <div class="w3-col 16 s12 w3-center" style="padding: 2% 3%;height: auto;">
+            <a href="./" style="text-decoration: none;">
+              <div class="w3-card-2 w3-round ws-pink" style="padding: 36px 24px">
+                <h2 style="font-size:30px;font-weight:500">Excel</h2>
+              </div>
+            </a>
+          </div>
+          <div class="w3-col 16 s12 w3-center" style="padding: 2% 3%;height: auto;">
+            <a href="./" style="text-decoration: none;">
+              <div class="w3-card-2 w3-round ws-yellow" style="padding: 36px 24px">
+                <h2 style="font-size:30px;font-weight:500">Machine Learning</h2>
+              </div>
+            </a>
+          </div>
+          <div class="w3-col 16 s12 w3-center" style="padding: 2% 3%;height: auto;">
+            <a href="./" style="text-decoration: none;">
+              <div class="w3-card-2 w3-round ws-white" style="padding: 36px 24px">
+                <h2 style="font-size:30px;font-weight:500">Google sheets</h2>
+              </div>
+            </a>
+          </div>
+          <div class="w3-col 16 s12 w3-center" style="padding: 2% 3%;height: auto;">
+            <a href="./" style="text-decoration: none;">
+              <div class="w3-card-2 w3-round ws-turquoise" style="padding: 36px 24px">
+                <h2 style="font-size:30px;font-weight:500">AI</h2>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="ws-black">
+        <div class="w3-content w3-padding display-block" style="max-width:974px">
+          <h1 style="font-size:65px;font-weight: 700; text-align: center;">Code Editor</h1>
+          <h4 style="margin-top:25px;" class="w3-center">With our online code editor, you can edit code and view the
+            result in your browser</h4>
+          <div class="code-editor-container">
+            <div class="code-editor-row">
+              <div class="code-editor-column code-editor-left">
+                <span class="code-editor-dot" style="background-color: #ED594A;"></span>
+                <span class="code-editor-dot" style="background-color: #FDD800;"></span>
+                <span class="code-editor-dot" style="background-color: #5AC05A;"></span>
+              </div>
+              <div class="code-editor-column" style="width: 80%;">
+                <input type="text" disabled="" class="code-editor-input" value="www.w3schools.com/tryit/">
+              </div>
+            </div>
+            <div class="w3-bar" style="background-color: #f1f1f1;">
+              <button class="w3-bar-item w3-button code-editor-tab-link ws-grey" style="color: black;"
+                onclick="openLangTab('Frontend', 'Backend')">
+                Front End
+              </button>
+              <button class="w3-bar-item w3-button code-editor-tab-link" style="color: black;"
+                onclick="openLangTab('Backend', 'Frontend')">
+                Back End
+              </button>
+            </div>
+            <div id="Frontend">
+              <img src="./img/fe.gif"
+                style="width:100%;height:auto;display:block;border-bottom-left-radius:4px;border-bottom-right-radius:4px;"
+                loading="lazy" alt="Frontend Code Editor">
+            </div>
+            <div id="Backend" style="display: none;">
+              <img src="./img/be.gif"
+                style="width:100%;height:auto;display:block;border-bottom-left-radius:4px;border-bottom-right-radius:4px;"
+                loading="lazy" alt="Backend Code Editor">
+            </div>
+          </div>
+          <a href="./" class="ws-btn w3-mobile" style="font-size: 18px;text-align: left; margin: 8px 0;">Try
+            Frontend Editor
+            (HTML/CSS/JS)</a>
+          </br>
+          <a href="./" class="ws-btn w3-mobile ws-yellow" style="font-size: 18px;text-align: left">Try Backend Editor
+            (Python/PHP/Java/C...)</a>
+        </div>
+        <div class="ws-black w3-center">
+          <div class="w3-space-image">
+            <h1 style="font-size:65px;font-weight:700">W3Schools Spaces</h1>
+            <h3 style="margin-top:35px;">If you want to create your own website, check out <a href="./"
+                class="ws-hover-text-green" style="color: #FFC0C7;font-weight:bold">W3Schools Spaces</a>.</h3>
+            <h3>It is free to use, and does not require any setup: </h3>
+            <br>
+            <img src="./img/dynamicspaces.gif" style="max-width:100%;width:850px;margin-bottom: 55px; margin-top: 20px;"
+              loading="lazy">
+            <img src="./img/how-spaces-works3.png" class="w3-hide-medium w3-hide-small"
+              style="max-width:100%;margin:auto auto 35px auto;" loading="lazy">
+            <a href="./" class="ws-btn tut-button"
+              style="margin-top:16px;font-size:21px;width:300px;padding: 11px 18px;">Learn More</a>
+          </div>
+        </div>
+        <div class="w3-center ws-light-green my-learning-section">
+          <div class="w3-content w3-padding" style="max-width: 1400px; flex-direction: column;">
+            <h1 style="font-size:65px;font-weight:700;">My Learning</h1>
+            <h4 style="margin-top:35px;">Track your progress with our <strong>free</strong> "My Learning" program.</h4>
+            <h4 style="margin-top:15px;">Log in to your account, and start earning points!</h4>
+            <img id="img_mylearning" src="./img/myl-green-off.png"
+              style="max-width:80%;margin-top:15px;margin-bottom:5px;align-self: center;" loading="lazy">
+            <a href="./" target="_blank" class="ws-btn tut-button sign-up-btn">Sign Up for Free</a>
+          </div>
+        </div>
+      </div>
+
+      <script src="./script.js"></script>
+</body>
+<footer class="w3-container w3-center w3-padding-16 ws-black">
+  <div class="w3-container w3-padding-32 w3-footer-responsive" style="display: flex;">
+    <a class="w3-button w3-white w3-hide-small w3-round w3-hide-medium w3-left footer-btn" href="./"
+      style="font-size:17px;margin-top:-9px;margin-top:-9px" title="Quizzes">QUIZZES</a>
+    <a class="w3-button w3-white w3-hide-small w3-round w3-hide-medium w3-left footer-btn" href="./"
+      style="font-size:17px;margin-top:-9px;margin-top:-9px" title="Quizzes">EXERCISES</a>
+    <a class="w3-button w3-white w3-hide-small w3-round w3-hide-medium w3-left footer-btn" href="./"
+      style="font-size:17px;margin-top:-9px;margin-top:-9px" title="Quizzes">CERTIFICATES</a>
+    <a class="w3-button w3-white w3-hide-small w3-round w3-hide-medium w3-left footer-btn" href="./"
+      style="font-size:17px;margin-top:-9px;margin-top:-9px" title="Quizzes">UPGRADE</a>
+    <a class="w3-button w3-white w3-hide-small w3-round w3-hide-medium w3-left footer-btn" href="./"
+      style="font-size:17px;margin-top:-9px;margin-top:-9px" title="Quizzes">SPACES</a>
+    <a class="w3-button w3-white w3-hide-small w3-round w3-hide-medium w3-left footer-btn" href="./"
+      style="font-size:17px;margin-top:-9px;margin-top:-9px" title="Quizzes">SUPPORT</a>
+    <a class="w3-button w3-white w3-hide-small w3-round w3-hide-medium w3-left footer-btn" href="./"
+      style="font-size:17px;margin-top:-9px;margin-top:-9px" title="Quizzes">NEWSLETTER</a>
+    <a class="w3-button w3-white w3-hide-small w3-round w3-hide-medium w3-left footer-btn" href="./"
+      style="font-size:17px;margin-top:-9px;margin-top:-9px" title="Quizzes">QUIZZES</a>
+    <a class="w3-button w3-white w3-hide-small w3-round w3-hide-medium w3-left footer-btn" href="./"
+      style="font-size:17px;margin-top:-9px;margin-top:-9px" title="Quizzes">EXERCISES</a>
+    <a class="w3-button w3-white w3-hide-small w3-round w3-hide-medium w3-left footer-btn" href="./"
+      style="font-size:17px;margin-top:-9px;margin-top:-9px" title="Quizzes">SUPPORT</a>
+    <nav class="w3-right w3-hide-medium w3-hide-small w3-wide" style="margin-left: auto;">
+      <a href="/forum/default.asp" target="_blank" class="w3-hover-text-green" style="text-decoration:none"
+        title="Forum">FORUM</a> |
+      <a href="/about/default.asp" target="_top" class="w3-hover-text-green" style="text-decoration:none"
+        title="About W3Schools">ABOUT</a>
+    </nav>
+  </div>
+  <div class="w3-container">
+    <a class="w3-bar-item w3-button w3-hover-white w3-xlarge w3-round w3-right topnav-some" target="_blank" href="./"
+      title="Join the W3schools community on Discord">
+      <i class="fa fa-home"></i>
+    </a>
+    <a class="w3-bar-item w3-button w3-hover-white w3-xlarge w3-round w3-right topnav-some" target="_blank"
+      href="https://www.linkedin.com/company/w3schools.com/" title="W3Schools on LinkedIn"><i
+        class="fa fa-linkedin-square"></i></a>
+    <a class="w3-bar-item w3-button w3-hover-white w3-xlarge w3-round w3-right topnav-some" target="_blank"
+      href="https://www.instagram.com/w3schools.com_official/" title="W3Schools on Instagram"><i
+        class="fa fa-instagram"></i></a>
+    <a class="w3-bar-item w3-button w3-hover-white w3-xlarge w3-round w3-right topnav-some" target="_blank"
+      href="https://www.facebook.com/w3schoolscom/" title="W3Schools on Facebook"><i
+        class="fa fa-facebook-square"></i></a>
+  </div>
+  <p class="w3-medium">
+    W3Schools is optimized for learning, testing, and training. Examples might be simplified to improve reading and
+    basic understanding. Tutorials, references, and examples are constantly reviewed to avoid errors, but we cannot
+    warrant full correctness of
+    all content. While using this site, you agree to have read and accepted our <a href="/about/about_copyright.asp"
+      class="w3-hover-text-green">terms of use</a>, <a href="/about/about_privacy.asp"
+      class="w3-hover-text-green">cookie and privacy policy</a>.<br>
+    <a href="/about/about_copyright.asp" class="w3-hover-text-green">Copyright 1999-2023</a> by Refsnes Data. All Rights
+    Reserved.
+    <br><br>
+    Nguyễn Hoàng Anh Tuấn - 181A010054 - VHU
+  </p>
+  <a title="Like W3Schools on Facebook">
+    <i class="fa fa-thumbs-o-up w3-xxlarge w3-hover-opacity"></i></a>
+</footer>
+
+</html>

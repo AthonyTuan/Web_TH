@@ -1,0 +1,370 @@
+body {
+  position: relative;
+  min-height: 100%;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.nav-bar {
+  padding: 0 16px 0 12px;
+  overflow: visible;
+  position: relative;
+  z-index: 4;
+  font-size: 18px;
+  height: 75px;
+}
+.nav-bar a {
+  height: 100%;
+}
+
+.w3-bar:before {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.fa-logo {
+  background-image: url("./img/logo.png");
+}
+
+.fa-logo::before {
+  content: "\e822";
+}
+
+.fa-caret-down:before {
+  content: "\e809";
+}
+
+.nav-button {
+  display: flex !important;
+  justify-content: space-between;
+  width: fit-content;
+  min-width: 130px;
+}
+
+.nav-button:not(#pageIcon):hover {
+  background-color: #04aa6d !important;
+  color: white !important;
+}
+
+.icon-container {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.nav-icon:hover {
+  color: #04aa6d !important;
+  background: white !important;
+}
+
+.ws-black {
+  background-color: #282a35 !important;
+  color: white !important;
+}
+
+#w3loginbtn {
+  width: 130px;
+  background-color: #04aa6d;
+  color: white;
+  border-radius: 25px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.learntocodecontent {
+  padding-left: 90px;
+  padding-right: 90px;
+}
+
+.learntocodeh1 {
+  font-size: 70px;
+  font-weight: 700;
+}
+
+.learntocodeh3 {
+  color: #ffc0c7;
+  font-weight: 700;
+  margin-top: 30px !important;
+  font-size: 23px;
+}
+
+form.example {
+  position: relative;
+}
+
+form.example input[type="text"] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid #282a35;
+  border-radius: 25px;
+  float: left;
+  width: 80%;
+  padding-left: 25px;
+  background: white;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-right: 0;
+  border-right: 1px solid #04aa6d;
+  outline: 0;
+}
+
+form.example button {
+  border-radius: 25px;
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #04aa6d;
+  color: white;
+  font-size: 17px;
+  border: 1px solid #282a35;
+  border-left: none;
+  cursor: pointer;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.fa-search:before {
+  content: "\e802";
+}
+
+.not-sure-text {
+  color: white;
+  font-size: 23px;
+  font-weight: 700;
+  margin-top: 30px !important;
+}
+
+.w3-row:before,
+.w3-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+h1 {
+  margin: 2px 0 -20px 0 !important;
+}
+
+#titleHTML {
+  font-size: 100px;
+  font-weight: 700;
+  margin-top: -18px !important;
+}
+
+.tut-button {
+  background-color: #04aa6d;
+  color: white;
+  font-size: 18px;
+  margin: auto;
+  display: block;
+  width: 200px;
+  border-radius: 25px !important;
+  margin-bottom: 12px;
+}
+
+.fa::before {
+  vertical-align: sub;
+}
+
+.video-tutorial-btn {
+  position: relative;
+  overflow: visible;
+}
+
+.ws-yellow {
+  background-color: #fff4a3 !important;
+  color: black !important;
+}
+
+.ws-pink {
+  background-color: #ffc0c7 !important;
+  color: black !important;
+}
+
+.ws-light-green {
+  background-color: #d9eee1 !important;
+  color: black !important;
+}
+
+.ws-white {
+  background-color: white !important;
+  color: black !important;
+}
+.grey-color {
+  background-color: #e7e9eb;
+  color: #000;
+}
+
+.w3-round {
+  border-radius: 5px;
+}
+
+.w3-content {
+  display: flex;
+}
+
+.tryit-button {
+  background-color: #04aa6d;
+  color: white;
+  border-radius: 25px;
+  font-size: 18px;
+  width: 200px;
+}
+
+.ws-turquoise {
+  background-color: #96d4d4 !important;
+  color: black !important;
+}
+
+.w3-card-pink {
+  color: black;
+  background-color: #ffc0c7;
+  padding: 24px;
+}
+
+.w3-card-yellow {
+  color: black;
+  background-color: #fff4a3 !important;
+  padding: 24px;
+}
+
+.w3-card-turquoise {
+  color: black;
+  background-color: #96d4d4;
+  padding: 24px;
+}
+
+.w3-card-white {
+  color: black;
+  background-color: #e7e9eb;
+  padding: 24px;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.flex-container .w3-col {
+  flex: 1 0 50%;
+}
+.flex-container-4 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.flex-container-4 .w3-col {
+  flex: 1 0 25%;
+}
+.display-block {
+  display: block !important;
+}
+.code-editor-container {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+.code-editor-row {
+  padding: 10px;
+  background: #f1f1f1;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+.code-editor-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.code-editor-left {
+  width: 20%;
+}
+.code-editor-column {
+  float: left;
+}
+.code-editor-dot {
+  margin-top: 5px;
+  height: 15px;
+  width: 15px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 3px;
+}
+.code-editor-input {
+  width: 80%;
+  border-radius: 3px;
+  border: none;
+  background-color: white;
+  margin-top: -8px;
+  height: 22px;
+  color: #666;
+  font-size: 14px;
+  padding: 5px;
+}
+.code-editor-tab-link {
+  font-size: 17px;
+  font-family: "Source Sans Pro", sans-serif;
+  border: none;
+  display: inline-block;
+  padding: 6px 18px;
+  vertical-align: middle;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  text-align: center;
+  cursor: pointer;
+}
+.ws-grey {
+  background-color: #e7e9eb !important;
+  color: black !important;
+}
+.ws-btn {
+  font-size: 17px;
+  font-family: "Source Sans Pro", sans-serif;
+  border: none;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 6px 18px;
+  vertical-align: middle;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: #04aa6d;
+  color: #ffffff;
+}
+.w3-space-image {
+  background-color: #282a35;
+  opacity: 0.98;
+  margin: auto;
+  padding: 25px 20px 80px 20px;
+}
+.my-learning-section {
+  padding-top: 65px;
+  padding-bottom: 70px;
+}
+.sign-up-btn {
+  margin-top: 22px;
+  font-size: 20px;
+  width: 300px;
+  padding: 11px 18px;
+}
+.tut-button:hover {
+  background-color: #059862 !important;
+  color: white !important;
+}
+.footer-btn {
+  margin-top: -9px;
+  margin-left: 12px;
+}
+@media only screen and (max-width: 959px) {
+  .w3-footer-responsive {
+    flex-direction: column;
+  }
+  .footer-btn { 
+    margin-top: 8px;
+    margin-left: 0;
+  }
+}
